@@ -277,7 +277,7 @@ shadowJar {
     //relocate 'io.micronaut', 'lib.kasuga.vendors.io.micronaut'
     relocate 'jakarta.inject', 'lib.kasuga.vendors.jakarta.inject'
     relocate 'jakarta.annotation', 'lib.kasuga.vendors.jakarta.annotation'
-    //relocate 'lib.kasuga.inject', 'lib.kasuga.vendors.inject'
+    relocate 'lib.kasuga.inject', 'lib.kasuga.vendors.inject'
 }
 
 
